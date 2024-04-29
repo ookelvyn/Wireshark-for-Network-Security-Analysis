@@ -1,3 +1,34 @@
+# Analyzing HTTP Basic Authentication
+
+In this project, we will analyze traffic on HTTP authentication using Wireshark. Wireshark has the capability of revealing credentials entered on an insecure website. The website to be used in this project uses the GET method for authentication.
+
+Website: [http://httpbin.org/basic-auth/username/password](http://httpbin.org/basic-auth/username/password)
+
+### Correct credentials:
+- Username: username
+- Password: password
+
+Step 1: Open Wireshark and enter Port 80 to capture HTTP traffic. Double-click Wi-Fi
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/e79fbdc8-5f09-4f58-a916-ff0891dc3861)
+
+Step 2: Enter the website on your browser and observe the traffic
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/29b5413f-c393-4302-b73f-88d35cb2c2c2)
+
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/5098528d-e041-4718-b623-ef3ffa6d2e7d)
+
+Step 3: Attempt to enter incorrect credentials.For example Username: username; Password: admin123.
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/c862523f-f479-4310-b513-2230d1f6be6b)
+
+Step 4: Enter the correct credentials 
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/8db63406-a562-40c0-aea1-0acc2228ed56)
+
+Step 5: View wrong credentials 
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/dcdf6b06-7115-4df3-ae33-ec173d139801)
+
+Step 6: View correct credentials
+![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/dbef453a-d88b-4caa-93c7-61cd0fc6e305)
+
+
 ```markdown
 # Analyzing HTTP Basic Authentication
 
