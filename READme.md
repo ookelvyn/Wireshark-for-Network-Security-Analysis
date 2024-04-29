@@ -29,7 +29,7 @@ Step 6: View correct credentials
 ![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/dbef453a-d88b-4caa-93c7-61cd0fc6e305)
 
 
-```markdown
+
 # Analyzing HTTP Basic Authentication
 
 This project aims to analyze HTTP authentication traffic using Wireshark, with a focus on identifying potential security vulnerabilities. Wireshark has the capability to intercept and reveal credentials entered on unsecure websites, providing valuable insights into potential risks.
@@ -64,4 +64,4 @@ The website utilized for this project employs the GET method for authentication:
 
 7. **View Correct Credentials**: Identify and analyze the packets containing the correct credentials.
 ![image](https://github.com/ookelvyn/Wireshark-for-Network-Security-Analysis/assets/30266503/dbef453a-d88b-4caa-93c7-61cd0fc6e305)
-```
+
